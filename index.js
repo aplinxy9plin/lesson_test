@@ -6,6 +6,8 @@ var MongoClient = require("mongodb").MongoClient
 var ObjectId = require("mongodb").ObjectID
 var url = "mongodb://admin:q2w3e4r5@ds261136.mlab.com:61136/heroku_695mr875"
 
+console.log()
+
 var port = process.env.PORT || 1337
 
 app.use(bodyParser.json())
